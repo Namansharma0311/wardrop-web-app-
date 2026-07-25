@@ -1,0 +1,24 @@
+{
+  "appId": "com.closetkeeper.app",
+  "appName": "Closetkeeper",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#FAF7F1"
+    },
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "launchShowDuration": 2000,
+      "backgroundColor": "#FAF7F1",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "Camera": {
+      "permissions": ["camera", "photos"]
+    }
+  }
+}
