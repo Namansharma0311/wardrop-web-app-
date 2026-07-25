@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "051016f6-34bc-4ce1-a439-97cc5ac8b95c",
+      "email": "test@test.com",
+      "passwordHash": "$2a$10$Od221UQtbXm8B1oi.7D2iubdnOPQSjp5XiIQ34y7PIfkRGgGBoyQK",
+      "createdAt": "2026-07-24T18:53:24.419Z"
+    },
+    {
+      "id": "ce7608bc-16ea-4d08-a889-c909f0812511",
+      "email": "naman@test.com",
+      "passwordHash": "$2a$10$Ttu33YvSex8460P0RxWtFOGFnWo22REOKTQ00xJ69WTs/YkBUMUla",
+      "createdAt": "2026-07-24T18:54:42.309Z"
+    },
+    {
+      "id": "44233f95-758a-4297-a57d-a6e61e89d60d",
+      "email": "e2e@test.com",
+      "passwordHash": "$2a$10$wh7..6h8ZWUkHatn2KgN4uBT7qQ0wn8MGSzeogVoepIYLIuz3LC7O",
+      "createdAt": "2026-07-24T19:01:53.663Z"
+    },
+    {
+      "id": "75e8722a-16a2-4ec2-9855-47a5de672675",
+      "email": "namansharma031106@gamil.com",
+      "passwordHash": "$2a$10$4ZA..VvtQWuIS8N3/rbuSOqeeuLrRVhIb4cWC9i72mND3sGc1fznS",
+      "createdAt": "2026-07-24T19:04:16.339Z"
+    }
+  ],
+  "clothes": [
+    {
+      "id": "774c930a-bd3e-4d30-b2e7-39ad5d717ace",
+      "userId": "ce7608bc-16ea-4d08-a889-c909f0812511",
+      "name": "Navy Blue T-Shirt",
+      "category": "tops",
+      "color": "blue",
+      "brand": "",
+      "season": "summer",
+      "occasion": "",
+      "favorite": false,
+      "imageUrl": null,
+      "createdAt": "2026-07-24T18:54:42.509Z"
+    },
+    {
+      "id": "acb3a72a-7051-4f0e-9dd3-aa7e4ba473d2",
+      "userId": "ce7608bc-16ea-4d08-a889-c909f0812511",
+      "name": "Black Jeans",
+      "category": "bottoms",
+      "color": "black",
+      "brand": "",
+      "season": "all",
+      "occasion": "",
+      "favorite": false,
+      "imageUrl": null,
+      "createdAt": "2026-07-24T18:54:42.584Z"
+    },
+    {
+      "id": "4bde7811-b53c-4a80-8286-5386f43162bc",
+      "userId": "44233f95-758a-4297-a57d-a6e61e89d60d",
+      "name": "Blue Denim Jacket",
+      "category": "outerwear",
+      "color": "blue",
+      "brand": "",
+      "season": "fall",
+      "occasion": "",
+      "favorite": false,
+      "imageUrl": null,
+      "createdAt": "2026-07-24T19:01:54.267Z"
+    },
+    {
+      "id": "02c24ce9-20cf-43e3-9a73-54de6ade07eb",
+      "userId": "75e8722a-16a2-4ec2-9855-47a5de672675",
+      "name": "",
+      "category": "Tops",
+      "color": "blue",
+      "brand": "",
+      "season": "Summer",
+      "occasion": "Casual",
+      "favorite": true,
+      "imageUrl": "/uploads/1784921360283-524002961.jpeg",
+      "createdAt": "2026-07-24T19:29:20.294Z"
+    }
+  ],
+  "outfits": [
+    {
+      "id": "45ddad60-b3cb-4684-9f0f-cfe6789a3b9e",
+      "userId": "ce7608bc-16ea-4d08-a889-c909f0812511",
+      "name": "Casual Friday",
+      "itemIds": [
+        "acb3a72a-7051-4f0e-9dd3-aa7e4ba473d2",
+        "774c930a-bd3e-4d30-b2e7-39ad5d717ace"
+      ],
+      "createdAt": "2026-07-24T18:54:42.808Z"
+    }
+  ]
+}
